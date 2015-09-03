@@ -1,0 +1,3 @@
+- name: restart lemp
+  notify:
+    - restart nginx
